@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/eureka-demo/eureka-consumer01/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-demo/eureka-provider02/pom.xml" />
         <option value="$PROJECT_DIR$/consul-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-demo/consul-provider01/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-demo/consul-consumer01/pom.xml" />
       </list>
     </option>
   </component>
