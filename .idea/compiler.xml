@@ -6,17 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-consumer01" />
+        <module name="eureka-provider02" />
+        <module name="eureka-server02" />
+        <module name="eureka-provider01" />
         <module name="eureka-server" />
+        <module name="consul-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consul-demo" target="1.8" />
+      <module name="eureka-consumer01" target="1.8" />
       <module name="eureka-demo" target="1.8" />
+      <module name="eureka-provider01" target="1.8" />
+      <module name="eureka-provider02" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-consumer01" options="-parameters" />
+      <module name="eureka-provider01" options="-parameters" />
+      <module name="eureka-provider02" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server02" options="-parameters" />
     </option>
   </component>
 </project>

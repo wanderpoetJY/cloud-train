@@ -1,0 +1,25 @@
+server:
+  port: 7071
+
+
+eureka:
+  instance:
+    hostname: eureka-provider02
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://root:rootjy@localhost:8761/eureka/, http://root:rootjy@localhost:8762/eureka/
+
+spring:
+  application:
+    name: eureka-provider
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: shutdown
+  endpoint:
+    shutdown:
+      enabled: true

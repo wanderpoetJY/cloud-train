@@ -1,0 +1,21 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: root
+      password: rootjy
+
+eureka:
+  instance:
+    hostname: eureka02
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    fetch-registry: true  #将自己注册到注册中心，默认为true。单节点需要关闭，否则报错
+    register-with-eureka: true #从注册中心拉取，默认为true。单节点建议关闭
+    service-url:  #注册中心对外暴露的注册
+      defaultZone: http://root:rootjy@localhost:8761/eureka/

@@ -1,0 +1,18 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: eureka-consumer
+
+eureka:
+  client:
+    register-with-eureka: false
+    registry-fetch-interval-seconds: 10 #多久进行一次服务拉取
+    service-url:
+      defaultZone: http://root:rootjy@localhost:8761/eureka/, http://root:rootjy@localhost:8762/eureka/
+
+
+eureka-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

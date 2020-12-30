@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cloud-train.iml" filepath="$PROJECT_DIR$/.idea/cloud-train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-demo/consul-demo.iml" filepath="$PROJECT_DIR$/consul-demo/consul-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-consumer01/eureka-consumer01.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-consumer01/eureka-consumer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-demo.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-provider01/eureka-provider01.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-provider01/eureka-provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-provider02/eureka-provider02.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-provider02/eureka-provider02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-server02/eureka-server02.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-server02/eureka-server02.iml" />
     </modules>
   </component>
 </project>
