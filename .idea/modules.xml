@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/consul-demo/consul-demo.iml" filepath="$PROJECT_DIR$/consul-demo/consul-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-demo/consul-provider01/consul-provider01.iml" filepath="$PROJECT_DIR$/consul-demo/consul-provider01/consul-provider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-consumer01/eureka-consumer01.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-consumer01/eureka-consumer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-consumer02/eureka-consumer02.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-consumer02/eureka-consumer02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-demo.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-provider01/eureka-provider01.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-provider01/eureka-provider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-demo/eureka-provider02/eureka-provider02.iml" filepath="$PROJECT_DIR$/eureka-demo/eureka-provider02/eureka-provider02.iml" />

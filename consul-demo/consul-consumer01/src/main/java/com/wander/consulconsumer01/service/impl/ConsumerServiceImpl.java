@@ -87,7 +87,7 @@ public class ConsumerServiceImpl implements ConsumerService {
 
 
         //根据服务名获取服务
-       ServiceInstance serviceInstance = loadBalancerClient.choose("eureka-provider");
+       ServiceInstance serviceInstance = loadBalancerClient.choose("consul-provider");
         if (serviceInstance == null) {
             return null;
         }

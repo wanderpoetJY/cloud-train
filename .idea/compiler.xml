@@ -13,6 +13,7 @@
         <module name="consul-consumer01" />
         <module name="eureka-server" />
         <module name="consul-provider01" />
+        <module name="eureka-consumer02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="consul-demo" target="1.8" />
       <module name="consul-provider01" target="1.8" />
       <module name="eureka-consumer01" target="1.8" />
+      <module name="eureka-consumer02" target="1.8" />
       <module name="eureka-demo" target="1.8" />
       <module name="eureka-provider01" target="1.8" />
       <module name="eureka-provider02" target="1.8" />
@@ -32,6 +34,7 @@
       <module name="consul-consumer01" options="-parameters" />
       <module name="consul-provider01" options="-parameters" />
       <module name="eureka-consumer01" options="-parameters" />
+      <module name="eureka-consumer02" options="-parameters" />
       <module name="eureka-provider01" options="-parameters" />
       <module name="eureka-provider02" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

@@ -1,6 +1,6 @@
-package com.wander.eurekaconsumer01.service;
+package com.wander.eurekaconsumer02.service;
 
-import com.wander.eurekaconsumer01.pojo.Teacher;
+import com.wander.eurekaconsumer02.pojo.Teacher;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  *
  * @author admin 2020/12/30/ 14:07
  */
-
+@Service
 public interface ConsumerService {
 
 
